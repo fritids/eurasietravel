@@ -1,0 +1,269 @@
+#logo{
+	clear:both;
+	margin-top:24px;
+}
+
+#logo h1 a {
+	background:url(../images/logo.png) no-repeat; 
+	height:160px; 
+	text-indent:-9999px; 
+	display:block; 
+	width:140px; 
+	margin:0 auto;
+}
+
+.slogan {
+	text-indent:-9999px; 
+	background:url(../images/slogan.png) 50% 0 no-repeat; 
+	height:40px; 
+	text-align:center;
+}
+
+#country-destination{
+	background:url(../images/bg-home-slideshow.png) 0 99px no-repeat;	
+	padding:15px 5px;
+	margin-top:1.5em;
+}
+
+#country-destination ul.tabs{
+	padding:0;
+	margin:0;
+	list-style:none;
+	margin-bottom:15px;
+	width:940px; 
+	overflow:hidden;
+}
+
+ul.tabs li{
+	float:left;
+	padding:0;
+	margin:0;
+}
+
+ul.tabs li a{
+	display:block;
+	width:188px;
+	height:84px;
+	text-indent:-9999px;
+}
+
+ul.tabs li.cambodia a{
+	background:url(../images/cambodia-tab.png) 0 -84px no-repeat;
+}
+
+ul.tabs li.vietnam a{
+	background:url(../images/vietnam-tab.png) 0 -84px no-repeat;
+}
+
+ul.tabs li.laos a{
+	background:url(../images/laos-tab.png) 0 -84px no-repeat;
+}
+
+ul.tabs li.myanmar a{
+	background:url(../images/myanmar-tab.png) 0 -84px no-repeat;
+}
+
+ul.tabs li.thailand a{
+	background:url(../images/thailand-tab.png) 0 -84px no-repeat;
+}
+
+ul.tabs li a.selected, ul.tabs li a:hover{
+	background-position: 0 0;
+}
+
+#tab1 ul, #tab2 ul, #tab3 ul, #tab4 ul, #tab5 ul{
+	padding:0 15px;
+	list-style:none;
+}
+
+/* Eurasie Travel Message 
+--------------------------------------------------------------- */
+
+.about-counties{
+	width:910px;
+	padding:0 15px;
+	overflow:hidden;
+	margin:15px 0 30px;
+}
+
+.eurasie-message{
+	width:624px;
+	margin-right:20px;
+	float:left;
+	font-size:24px;
+	background:url(../images/blockquot.gif) no-repeat;
+	padding-left:36px;
+	padding-top:5px;
+}
+	.eurasie-message span{
+		font-size:36px;
+	}
+
+.btn-coutnries a{
+	background:url(../images/btn-countries.gif) no-repeat;
+	width:205px;
+	height:60px;
+	line-height:60px;	
+	font-size:19px;
+	color:#fff;
+	float:left;
+	padding-left:25px;
+	display:block;
+}
+
+.btn-coutnries a:hover{
+	background-position:0 -60px;
+}
+
+/* Group Tours
+--------------------------------------------------------------- */
+
+#group-tours{
+	padding:15px 0 0;
+}
+
+#group-tours ul{
+	float:left;
+	width:455px;
+}
+
+#group-tours li{
+	margin:3px 15px 3px 0;
+	background:url(../images/lead.gif) 0 16px repeat-x;
+	overflow:hidden;
+	clear:both;
+}
+
+#group-tours .grouptour-info, #group-tours .grouptour-price{
+	display:block;
+	background:#fff;
+}
+
+#group-tours .grouptour-info{
+	float:left;	
+	background:#fff url(../images/purple-bullet.png) 0 6px no-repeat;
+	padding:0 5px 0 15px;	
+}
+
+#group-tours .grouptour-info a{
+	font-size:13px;
+}
+
+#group-tours .grouptour-info span{
+	display:block;
+	font-size:11px;
+	color:#999;
+	font-style:italic;
+	margin-top: -3px;
+}
+
+#group-tours .grouptour-info a:hover{
+	color:#c40076;
+}
+
+#group-tours .grouptour-price{
+	float:right;
+	color:#7aaf0a;
+	font-weight: 400;
+	font-size:16px;
+}
+
+#group-tours sup.micro{
+	font-size:10px;
+	vertical-align:super;
+}
+
+.not-available{
+	font-size:11px;
+	padding:6px 0 4px 5px;
+	display:block;
+}
+
+.more-tours{
+	width:146px;
+	height:28px;
+	display:block;
+	float:right;
+	background:url(../images/btn-more-dropdown.png) no-repeat;
+	font-weight:bold;
+	padding:5px 0 0 15px;
+	color:#666;
+	margin-top:10px;
+}
+
+/* Search on Homepage 
+--------------------------------------------------------------- */
+.search-home{
+	background:url(../images/home-search-box.png) 0 36px no-repeat;
+	width:940px;
+	overflow:hidden;
+}
+
+.search-home ul{
+	width:484px;
+	overflow:hidden;
+	margin:0;
+	padding:0;
+}
+
+.search-home ul li{
+	float:left;	
+}
+
+.search-home ul li a{
+	background:url(../images/home-search-tab.png) 0 -37px no-repeat;
+	width:242px;
+	height:37px;
+	display:block;
+	text-align:center;
+	line-height:32px;
+	font-size:18px;
+	color:#666;
+	
+}
+
+.search-home ul li a.selected{
+	background-position: 0 0;
+	color:#0066a0;
+}
+
+.search-home input.btn-search-home{
+	background:url(../images/btn-home-search.png) no-repeat;
+	width:121px;
+	border:none;
+	font-size:13px;
+	font-weight:bold;
+	padding:5px 0 9px;
+	color:#666;
+	margin-top:23px;
+	margin-left:50px;
+	cursor:pointer;
+}
+
+.search-home select{	
+	border:0;
+	padding:13px; 
+	font-size:14px;
+	width:240px;
+	line-height:45px;
+	background:url(../images/combo-box-bg.png) no-repeat;
+	color:#666;
+}
+
+.search-home select.maxprice_tour, .search-home select.minprice_tour, .search-home select.maxprice_hotel, .search-home select.minprice_hotel {
+	background:none;
+	background:url(../images/combo-box-short-bg.png) no-repeat;
+	width:120px;
+}
+
+#destination-kh ul, #hotel-kh ul, #destination-vn ul, #hotel-vn ul, #destination-la ul, #hotel-la ul, #destination-mm ul, #hotel-mm ul, #destination-th ul, #hotel-th ul{
+	width:910px;
+	margin:10px 0;
+}
+
+.search-home label{
+	display:block;
+	padding-left:5px;
+	font-size:12px;
+	color:#999999;
+}
