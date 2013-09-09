@@ -86,8 +86,7 @@
                         <input type="hidden" value="EurasieTravel" name="uri"/>
                         <input type="hidden" name="loc" value="en_US"/>
                         <input type="submit" value="Subscribe Now" class="btn-subscribe" />                        
-                    </form>
-                    
+                    </form> 
                 </div>
             </div>
         </div>
@@ -105,17 +104,17 @@
 <div id="footer">
 	<div class="inner-wrap">
     	<div class="inner-grid6">        	
-            <a href="<?php echo get_option('home'); ?>/">Home </a>|<a href="<?php bloginfo('url'); ?>/?page_id=2"> About Us </a>|<a href="<?php bloginfo('url'); ?>/?page_id=199"> Contact Us </a>|<a href="<?php bloginfo('url'); ?>/?page_id=492"> FAQ </a>|<a href="<?php bloginfo('url'); ?>/?page_id=426"> Terms &amp; Conditions</a><br />
+            <a href="<?php echo get_option('home'); ?>/">Home </a>|<a href="<?php bloginfo('url'); ?>/?page_id=2"> About Us </a>|<a href="<?php bloginfo('url'); ?>/?page_id=199"> Contact Us </a>|<a href="#"> FAQ </a>|<a href="<?php bloginfo('url'); ?>/?page_id=426"> Terms &amp; Conditions</a><br />
             <strong>Destination: </strong> <a href="<?php bloginfo('url'); ?>/?page_id=50&c=Cambodia">Cambodia </a>-<a href="<?php bloginfo('url'); ?>/?page_id=173&c=Vietnam"> Vietnam </a>-<a href="<?php bloginfo('url'); ?>/?page_id=177&c=Laos"> Laos </a>-<a href="<?php bloginfo('url'); ?>/?page_id=180&c=Myanmar"> Myanmar </a>-<a href="<?php bloginfo('url'); ?>/?page_id=2888&c=Thailand"> Thailand </a>-<a href="<?php bloginfo('url'); ?>/?page_id=2929&c=Group-Tours"> Group Tours</a>
             <img src="<?php bloginfo('template_url'); ?>/images/payment-method.png" alt="Payment Eurasie Travel Method" />
         </div>
         
         <div class="inner-grid5">
-        	&copy; Eurasie Travel 1990 - 2011, All Rights Reserved<br />
+        	&copy; Eurasie Travel 1990 - 2012, All Rights Reserved<br />
             Design by <a href="http://www.novacambodia.com">nova</a>            
             
             <div class="socialnetwork">
-            <a href="http://www.facebook.com/profile.php?id=100002472640946" title="Join Eurasie Travel on Facebook"><img src="<?php bloginfo('template_url'); ?>/images/facebook.png" alt="Facebook" /></a>
+            <a href="http://www.facebook.com/eurasietravel.com.kh" title="Join Eurasie Travel on Facebook"><img src="<?php bloginfo('template_url'); ?>/images/facebook.png" alt="Facebook" /></a>
             <a href="http://twitter.com/#!/eurasietravel" title="Follow Eurasie Travel on Twitter"><img src="<?php bloginfo('template_url'); ?>/images/twitter.png" alt="Follow us on Twitter" /></a>
             <a href="http://www.linkedin.com/pub/bonny-seng/34/53a/289" title="Visit our Linkedin Profile"><img src="<?php bloginfo('template_url'); ?>/images/linkedin.png" alt="Linkedin" /></a>
             <a href="http://www.myspace.com/569092497" title="Visit us on Myspace"><img src="<?php bloginfo('template_url'); ?>/images/myspace.png" alt="Myspace" /></a>            
@@ -130,10 +129,13 @@
         <img src="<?php bloginfo('template_url'); ?>/images/cambodia-wonder.gif" alt="Cambodia of Wonder" />
         <a href="http://www.catacambodia.com" title="CATA - Cambodia Association of Travel Agents" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/c.a.t.a.gif" alt="C.A.T.A" /></a>
         <a href="http://www.cambodialetsdoit.org" title="CLEAN CITY DAY &#8211; LET'S DO IT! CAMBODIA" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/letdoitcambodia.gif" alt="Let Do It" /></a>
+        <a href="http://www.ccben.org/" title="Cambodia Community-Base Ecotourism Newtwork" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/ccben-logo.gif" alt="ccben" /></a>
     </div>
     
 </div>
 <!--End Footer-->
+
 <?php wp_footer(); ?>
+
 </body>
 </html>
